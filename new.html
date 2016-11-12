@@ -1,0 +1,32 @@
+<html>
+	<head>
+		
+	</head>
+
+	<body>
+	
+	<p
+	<button type="button" onclick="applyStyling()">Make it pretty!</button>
+
+	</script>
+
+	<input id="testInput" type="number">
+	<p id="result"></p>
+
+		<script>
+function testInput() {
+// Create variable to store test result
+var text;
+// Get the value of the input field with id="numb"
+var x = document.getElementById("numericInput").value;
+if (isNaN(x) || x < 0 || x > 99) {
+	text = "Wrong input";
+} else {
+	text = "Correct input";
+}
+// Display result
+document.getElementById("result").innerHTML = text;
+}
+</script>
+
+	</body>

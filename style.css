@@ -1,0 +1,22 @@
+img{
+	margin: 20px
+}
+
+
+head{
+	color:#15534C;
+}
+
+p{
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+    color:#15534C;
+    margin-left: 20px;
+}
